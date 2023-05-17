@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+   <div id="h">
+    <h1 id=title>A simple form</h1>
+    <p id="d">We make this form just for Microverse</p>
+    </div>
     <div id="main">
         <form id="s-form">
         <div id="input-fields">
@@ -19,9 +23,57 @@
             <label id="number-label"><b>Age:</b></label>
             <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
          </div>
-    <div id="h">
-    <h1 id=title>A simple form</h1>
-    <p id="d">We make this form just for Microverse</p>
+
+         <div><br>
+            <label><strong>Programming language you are expert at: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">C</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+         <div id="b-area">
+             <br>
+            <label id="job-label"><b>Employment Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time<br>
+            <input type="radio" class="radio-inline" name="gender" value="freelancer"> Part-time<br>
+            <input type="radio" class="radio-inline" name="gender" value="applier"> Looking for a job<br>
+            <input type="radio" class="radio-inline" name="gender" value="unemployed"> I am a student
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>Operating system experience: </b></label><br>
+            <input type="checkbox" name="os1" value="windows" checked>Windows<br>
+            <input type="checkbox" name="os2" value="linux">Linux<br>
+            <input type="checkbox" name="0s3" value="mac">Mac<br>
+          </div>
+
+          <div><br><br>
+            <label id="dropdown-label"><strong>Languages you want to be expert: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="C">C</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Latest technology experience:</b></label><br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
+            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
+            <input type="checkbox" name="tech3" value="git"> Github<br>
+          </div>
+
+
+          <div id="end"><br><br>
+            <label id="c-label">Do you have any comments?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please write here ..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
     </div>
 </body>
 </html>
